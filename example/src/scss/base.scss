@@ -1,0 +1,36 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background-color: #333;
+}
+
+.part {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  box-shadow: 0 0 0 1px #fd5 inset;
+  color: #fd5;
+
+  &.part-10 {
+    height: 10vh;
+  }
+  &.part-50 {
+    height: 50vh;
+  }
+  &.part-60 {
+    height: 60vh;
+  }
+  &.part-100 {
+    height: 100vh;
+  }
+  &.part-120 {
+    height: 120vh;
+  }
+  &.part-150 {
+    height: 150vh;
+  }
+}
